@@ -12,15 +12,15 @@ body
 .access
 {
     font-family: helvetica, arial, sans-serif;
-    border-bottom: solid black;
-    padding-bottom: 0;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: -10px;
 }
 
 mark
 {
     background-color: red;
     color: white;
+    box-shadow: 0px 8.5px 0px red;
 }
 
 p
@@ -36,9 +36,16 @@ p
 .ecole
 {
     letter-spacing: 80px;
-    font-family: 'Darker Grotesque',helvetica, sans-serif;;
+    font-family: 'Darker Grotesque',helvetica, sans-serif;
     height: 0px;
     margin-left: 50px;
+}
+
+hr
+{
+    width: 86%;
+    height: 1px;
+    background-color: black;
 }
 
 @media (max-width: 600px)
@@ -51,5 +58,11 @@ p
     .ecole
     {
         letter-spacing: 40px;
+    }
+
+    hr 
+    {
+        width: 80%;
+        height: 1px;
     }
 }
